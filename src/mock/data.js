@@ -57,6 +57,24 @@ export const projectsData = [
     url: 'https://devpost.com/software/tentabs',
     repo: 'https://github.com/zawie/tentabs',
   },
+  {
+    id: nanoid(),
+    img: 'minigame_mania.jpeg',
+    title: 'Minigame Mania',
+    info: 'A multiplayer roblox game with over 770,000 plays.',
+    info2: '',
+    url: 'https://www.roblox.com/games/978797212/Minigame-Mania',
+    repo: '',
+  },
+  {
+    id: nanoid(),
+    img: 'possession.jpeg',
+    title: 'Possession II',
+    info: 'A multiplayer roblox game with over 375,500 plays.',
+    info2: '',
+    url: 'https://www.roblox.com/games/325062044/Possession-II-Spooked',
+    repo: '',
+  },
 ];
 
 // CONTACT DATA
