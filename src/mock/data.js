@@ -17,8 +17,8 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
+  img: 'face.jpg',
+  paragraphOne: 'I am a computer science student at Rice University.',
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
@@ -28,30 +28,34 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'divorce_ds.png',
+    title: 'Divorce Data Science',
+    info: 'Rice Datathon 2020 - Best Underclassmen Team',
+    info2:
+      'Using SVM Algorithms to Optimize Divorce Prediction Scales. We found the most predictive question in determing whether or not a married couple would divorce was "Do you know your spouse\'s hopes and wishes?"',
+    url: 'http://zawie.zone/divorce-data-science/',
+    repo: 'https://github.com/zawie/divorce-data-science',
+  },
+  {
+    id: nanoid(),
+    img: 'boids.png',
+    title: 'Flocking Boids',
+    info:
+      '"Boids is an artificial life program, developed by Craig Reynolds in 1986, which simulates the flocking behaviour of birds." (Wikipedia)',
+    info2:
+      'I implemented these 2D boids in the browser. Check out how the boids school like real fish.',
+    url: 'http://zawie.zone/flock/',
+    repo: 'https://github.com/zawie/flock',
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Tentabs',
+    info: 'A HackRice 9 Project',
+    info2:
+      'Are you tired of having to open and close each result after you Google something, wasting precious time you could be using on producitivity?\n\nThen Tentabs is for you! Tentabs is a chrome extension that will open the first results of a Google search in indiviual tabs to enhance your browsing experience.',
+    url: 'https://devpost.com/software/tentabs',
+    repo: 'https://github.com/zawie/tentabs',
   },
 ];
 
@@ -59,7 +63,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'zawie@rice.edu',
 };
 
 // FOOTER DATA
@@ -78,12 +82,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/zawie/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/zawie',
     },
   ],
 };
