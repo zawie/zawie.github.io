@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo:
     'Ever since I firsted started making video-games as a kid, I have been addicited to programming. I have branched off into developing apps, websites, and even deep learning research. I am turning my passion for computers into a full fledged career.',
   paragraphThree: 'I am currently looking for an internship or research position for Summer 2021.',
-  resume: 'https://resume.zawie.io', // if no resume, the button will not show up
+  resume: 'https://files.zawie.io/Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
