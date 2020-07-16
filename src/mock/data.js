@@ -53,7 +53,7 @@ export const projectsData = [
     title: 'Graph to Latentspace Encoder',
     info: 'Rice University Bioinformatics Research',
     info2:
-      'Created an encoder that would take the adjaceny of a graph, and map each node to a vector in a particular latentspace. This can be used either to visualize graphs in 3D or 2D space, or it can be used to simplify and compress data fed to a machine learning model.',
+      'Created an encoder that would take the adjaceny matrix of a graph and map each node to a vector in a given latentspace. This can be used either to visualize graphs in 3D or 2D space, or it can be used to simplify and compress data fed to a machine learning model.',
     url: 'https://github.com/zawie/graph-latent-space-encoder',
     repo: 'https://github.com/zawie/graph-latent-space-encoder',
   },
@@ -90,7 +90,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'tentabs.png',
     title: 'Tentabs',
     info: 'A HackRice 9 Project',
     info2:
