@@ -11,17 +11,18 @@ export const headData = {
 export const heroData = {
   title: 'Hello, I am',
   name: 'Adam Zawierucha',
-  subtitle: 'A passionate Computer Scientist',
-  cta: 'Learn More',
+  subtitle: ' ',
+  cta: 'More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'face.jpg',
   paragraphOne: 'I am a computer science student at Rice University.',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphTwo:
+    'Ever since I firsted started video-games as kid, I have been hooked to programming. I have branched off in to developing apps, websites, and even deep learning research. I am turning my hobby for programming and computer science into a full fledged career.',
+  paragraphThree: 'I am currently looking for an internship or research position for Summer 2021.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -46,6 +47,26 @@ export const projectsData = [
       'I implemented these 2D boids in the browser. Check out how the boids school like real fish.',
     url: 'http://zawie.github.io/flock/',
     repo: 'https://github.com/zawie/flock',
+  },
+  {
+    id: nanoid(),
+    img: 'moody.png',
+    title: 'Public Art Installation Navigator ',
+    info:
+      'On RiceApps, I worked on a team of 6 to develop an app for the Moody Center for the Arts.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/rice-apps/moody',
+  },
+  {
+    id: nanoid(),
+    img: 'match.png',
+    title: 'Match',
+    info: 'Team Lead on RiceApps',
+    info2:
+      'Working to develop a website to help two different stake holders with similiar tasks: Covidsitters match healthcare workers with student volunteer babysitters and the Rice Center for Career Development match students with externships.',
+    url: 'https://www.match.riceapps.org',
+    repo: 'https://github.com/rice-apps/match',
   },
   {
     id: nanoid(),
@@ -79,8 +100,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
+  cta: 'Would you like to work with me?',
+  btn: "Let's Talk",
   email: 'zawie@rice.edu',
 };
 
