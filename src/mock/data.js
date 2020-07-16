@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo:
     'Ever since I firsted started video-games as kid, I have been hooked to programming. I have branched off in to developing apps, websites, and even deep learning research. I am turning my hobby for programming and computer science into a full fledged career.',
   paragraphThree: 'I am currently looking for an internship or research position for Summer 2021.',
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://resume.zawie.io', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -34,7 +34,7 @@ export const projectsData = [
     info: 'Rice Datathon 2020 - Best Underclassmen Team',
     info2:
       'Using SVM Algorithms to Optimize Divorce Prediction Scales. We found the most predictive question in determing whether or not a married couple would divorce was "Do you know your spouse\'s hopes and wishes?"',
-    url: 'http://zawie.zone/divorce-data-science/',
+    url: 'https://divorce.zawie.io',
     repo: 'https://github.com/zawie/divorce-data-science',
   },
   {
@@ -45,7 +45,7 @@ export const projectsData = [
       '"Boids is an artificial life program, developed by Craig Reynolds in 1986, which simulates the flocking behaviour of birds." (Wikipedia)',
     info2:
       'I implemented these 2D boids in the browser. Check out how the boids school like real fish.',
-    url: 'http://zawie.github.io/flock/',
+    url: 'https://flock.zawie.io',
     repo: 'https://github.com/zawie/flock',
   },
   {
