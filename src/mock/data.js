@@ -44,7 +44,7 @@ export const projectsData = [
       '"Boids is an artificial life program, developed by Craig Reynolds in 1986, which simulates the flocking behaviour of birds." (Wikipedia)',
     info2:
       'I implemented these 2D boids in the browser. Check out how the boids school like real fish.',
-    url: 'http://zawie.zone/flock/',
+    url: 'http://zawie.github.io/flock/',
     repo: 'https://github.com/zawie/flock',
   },
   {
