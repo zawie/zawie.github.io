@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'face.jpg',
   paragraphOne: 'I am a computer science student at Rice University.',
   paragraphTwo:
-    'Ever since I firsted started video-games as kid, I have been hooked to programming. I have branched off in to developing apps, websites, and even deep learning research. I am turning my hobby for programming and computer science into a full fledged career.',
+    'Ever since I firsted started video-games as a kid, I have been addicited to programming. I have branched off into developing apps, websites, and even deep learning research. I am turning my hobby of programming and computer science into a full fledged career.',
   paragraphThree: 'I am currently looking for an internship or research position for Summer 2021.',
   resume: 'https://resume.zawie.io', // if no resume, the button will not show up
 };
@@ -36,6 +36,26 @@ export const projectsData = [
       'Using SVM Algorithms to Optimize Divorce Prediction Scales. We found the most predictive question in determing whether or not a married couple would divorce was "Do you know your spouse\'s hopes and wishes?"',
     url: 'https://divorce.zawie.io',
     repo: 'https://github.com/zawie/divorce-data-science',
+  },
+  {
+    id: nanoid(),
+    img: 'Phy.png',
+    title: 'Phylogenetic Deep Learning',
+    info: 'Rice University Bioinformatics Research',
+    info2:
+      'Applied deep learning techniques to resolve molecular phylogenetic quartets. Used PyTorch for creating models and various bioinformatic software to generate the data.',
+    url: 'https://github.com/zawie/phylogenetic-deep-learning',
+    repo: 'https://github.com/zawie/phylogenetic-deep-learning',
+  },
+  {
+    id: nanoid(),
+    img: 'graph.png',
+    title: 'Graph to Latentspace Encoder',
+    info: 'Rice University Bioinformatics Research',
+    info2:
+      'Created an encoder that would take the adjaceny of a graph, and map each node to a vector in a particular latentspace. This can be used either to visualize graphs in 3D or 2D space, or it can be used to simplify and compress data fed to a machine learning model.',
+    url: 'https://github.com/zawie/graph-latent-space-encoder',
+    repo: 'https://github.com/zawie/graph-latent-space-encoder',
   },
   {
     id: nanoid(),
