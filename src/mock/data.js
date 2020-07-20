@@ -121,7 +121,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: 'Would you like to work with me?',
-  btn: "Let's Talk",
+  btn: 'zawie@rice.edu',
   email: 'zawie@rice.edu',
 };
 
