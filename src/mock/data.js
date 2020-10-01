@@ -40,6 +40,17 @@ export const projectsData = [
   
   {
     id: nanoid(),
+    img: 'maf.png',
+    title: 'Mafs',
+    info: 'Contributor',
+    info2:
+      'Contributing to a node module that makes it easy to create interactive mathematical componenets with a 3Blue1Brown style.',
+    url: 'https://github.com/stevenpetryk/mafs/pull/19',
+    repo: 'https://github.com/stevenpetryk/mafs',
+  },
+
+  {
+    id: nanoid(),
     img: 'divorce_ds.png',
     title: 'Divorce Data Science',
     info: 'Rice Datathon 2020 - Best Underclassmen Team',
