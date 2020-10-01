@@ -29,6 +29,17 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'field.png',
+    title: 'Physics Demos',
+    info: 'Side project',
+    info2:
+      'Built a react website to house educational physics simulations for my high school teacher. I am planning to add more simulations on a monthy or weekly basis. I hope to get this to be used in class rooms!',
+    url: 'https://physics.zawie.io',
+    repo: 'https://github.com/zawie/physics-site',
+  },
+  
+  {
+    id: nanoid(),
     img: 'divorce_ds.png',
     title: 'Divorce Data Science',
     info: 'Rice Datathon 2020 - Best Underclassmen Team',
